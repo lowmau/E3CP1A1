@@ -1,0 +1,33 @@
+body {
+margin: 0px;
+padding: 0px;
+font-family: 'Arial';
+}
+.contenedor {
+background-color: black;
+color: white;
+padding: 70px;
+text-align: center;
+}
+.row {
+clear: both;
+display: inline; 
+}
+.col-md-3 {
+float: left;
+display: table-cell;
+box-sizing: border-box;
+border-style: solid;
+border-width: 30px;
+border-color: white;
+width: 33%;
+}
+.responsive {
+max-width: 100%;
+}
+@media (max-width: 480px) {
+.col-md-3 {
+width: 100%;
+float: left;
+}
+}
